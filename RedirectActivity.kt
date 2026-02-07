@@ -1,4 +1,4 @@
-package com.example.apptry1
+package com.example.focusguard
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
