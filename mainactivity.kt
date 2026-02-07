@@ -18,14 +18,6 @@ import androidx.compose.ui.unit.dp
 import java.util.Calendar
 
 // -------- Presets --------
-data class PomodoroPreset(
-    val id: String,
-    val name: String,
-    val focusMin: Int,
-    val shortBreakMin: Int,
-    val longBreakMin: Int,
-    val longBreakAfter: Int
-)
 
 val presetListDefault = listOf(
     PomodoroPreset("classic", "Classic", 25, 5, 15, 4),
