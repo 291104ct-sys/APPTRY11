@@ -1,4 +1,4 @@
-package com.example.apptry1
+package com.example.focusguard
 
 data class PomodoroPreset(
     val id: String,          // stable key for saving/loading (e.g., "classic")
